@@ -12,7 +12,10 @@
   --color-blue-footer: #000951;
 }
 
-html,
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  @apply bg-[#000f7d];
+  @apply bg-[#000F7D];
 }
