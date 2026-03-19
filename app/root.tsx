@@ -12,7 +12,7 @@ export const links: Route.LinksFunction = () => [
   },
   {
     rel: "stylesheet",
-    href: "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..60,400;12..60,500;12..60,700&family=Rufina:wght@700&display=swap",
+    href: "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..60,200;12..60,300;12..60,400;12..60,500;12..60,600;12..60,700;12..60,800&family=Rufina:wght@700&display=swap",
   },
 ];
 
