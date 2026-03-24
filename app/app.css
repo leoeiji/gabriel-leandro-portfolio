@@ -19,3 +19,12 @@ html {
 body {
   @apply bg-[#000F7D];
 }
+
+/* Practice Areas accordion */
+details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
