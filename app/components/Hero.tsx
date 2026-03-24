@@ -17,15 +17,15 @@ export function Hero() {
 
       {/* Content */}
       <div
-        className="absolute flex flex-col gap-6 w-full max-w-[55vw] pl-17.5 -translate-y-1/2"
+        className="absolute flex flex-col gap-6 w-full lg:max-w-[55vw] px-8 lg:pl-17.5 lg:pr-0 -translate-y-1/2"
         style={{ top: "50%" }}
       >
-        <h1 className="font-serif font-bold text-[64px] text-purple-main leading-tight">
-          Lorem ipsum dolor sit amet adipiscing.
+        <h1 className="font-serif font-bold text-[36px] lg:text-[64px] text-purple-main leading-tight">
+          Advocacia com experiência e comprometimento.
         </h1>
         <p className="font-sans font-normal text-[16px] text-white leading-[1.2]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-          et dolore magna aliqua.
+          Atuação consultiva e contenciosa para pessoas físicas e empresas nas áreas cível,
+          empresarial, trabalhista e mais.
         </p>
         <div className="pt-4">
           <Button href="#contato" label="Entre em contato" />
